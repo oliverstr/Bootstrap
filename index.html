@@ -44,32 +44,47 @@
       <div class="row">
         <img class="img-responsive col-sm-6" src="img/empresa.jpg" alt="Fachada da empresa">
 
-        <div class="panel-group col-sm-6" id="paineis-sobre">
+        <div class="panel-group col-sm-6" id="paineis-sobre" role="tablist" aria-multiselectable="true">
+
           <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title" data-toggle="collapse" data-target="#p1" data-parent="#paineis-sobre">Desde 1953</h3>
+            <div class="panel-heading" role="tab">
+              <a role="button" data-toggle="collapse" data-parent="#paineis-sobre" href="#p1" aria-expanded="true" aria-controls="p1">
+                <h3 class="panel-title">
+                    Desde 1953
+                </h3>
+              </a>
             </div>
-            <div class="collapse in" id="p1">
+            <div class="panel-collapse collapse in" id="p1" role="tabpanel" aria-labelledby="paineis-sobre">
               <div class="panel-body">
                 Arquitetura está no mercado desde...
               </div>
             </div>
           </div>
+
           <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title" data-toggle="collapse" data-target="#p2" data-parent="#paineis-sobre">Desde 1953</h3>
+            <div class="panel-heading" role="tab">
+              <a role="button" data-toggle="collapse" data-parent="#paineis-sobre" href="#p2" aria-expanded="false" aria-controls="p2">
+                <h3 class="panel-title">
+                    Desde 1953
+                </h3>
+              </a>
             </div>
-            <div class="collapse" id="p2">
+            <div class="panel-collapse collapse" id="p2" role="tabpanel" aria-labelledby="paineis-sobre">
               <div class="panel-body">
                 Arquitetura está no mercado desde...
               </div>
             </div>
           </div>
+
           <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title" data-toggle="collapse" data-target="#p3" data-parent="#paineis-sobre">Desde 1953</h3>
+            <div class="panel-heading" role="tab">
+              <a role="button" data-toggle="collapse" data-parent="#paineis-sobre" href="#p3" aria-expanded="false" aria-controls="p3">
+                <h3 class="panel-title">
+                    Desde 1953
+                </h3>
+              </a>
             </div>
-            <div class="collapse" id="p3">
+            <div class="panel-collapse collapse" id="p3" role="tabpanel" aria-labelledby="paineis-sobre">
               <div class="panel-body">
                 Arquitetura está no mercado desde...
               </div>
